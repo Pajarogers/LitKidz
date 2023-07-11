@@ -94,7 +94,7 @@
 }
 /* setting for drop down list*/
 .dropdown {
-  margin-left: 250px;
+  margin-left: 485px;
   position: relative;
   display: inline-block;
   margin-top: -300px;
@@ -130,3 +130,27 @@ footer {
   font-size: 14px;
   background-color: rgb(3, 1, 0);
   }
+
+  /*display template for game page */
+.thumnail{
+      width: 300px;
+      display: block;
+}
+/* setting for the container for game page*/
+.frame{
+  width:150px;
+  height:150px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+   
+}
+/* image size for the container*/
+.image-size{
+  padding-left: 20px;
+  object-fit: cover;
+  width:150px;
+  height:150px;
+
+}
