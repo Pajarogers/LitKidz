@@ -39,18 +39,30 @@
 .menu-bar ul a:hover{
   color:rgb(48, 109, 101);
 }
+.form-bn a:hover{
+  color: #ed1a92;
+}
+
 /* generic setting */
 *{
   padding: 0;
-  margin: 0;
+  margin: 2px;
   box-sizing: border-box;
   font-family:arial;
 }
+
 /* container setting for video on home page*/
 .container{
   width: 100%;
   height: 50vh;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-image{
+  width: 100%;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,9 +104,29 @@
   font-size: 16px;
   border: none;
 }
+.vido-bn {
+  background-color: rgba(000,0,0,0.0);
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-size: 38px;
+  border: none;
+  margin-left:270px ;
+ 
+}
+.vido-bn-1 {
+  background-color: rgba(000,0,0,0.0);
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-size: 38px;
+  border: none;
+  margin-left: 385px;
+  position: relative;
+  display: inline-block;
+  margin-top: 450px;
+}
 /* setting for drop down list*/
 .dropdown {
-  margin-left: 485px;
+  margin-left: 680px;
   position: relative;
   display: inline-block;
   margin-top: -300px;
@@ -116,7 +148,7 @@
   display: block;
 }
 /* setting for drop down list*/
-.dropdown-content a:hover {background-color: #5672ef;}
+.dropdown-content{background-color: #5672ef;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
@@ -131,26 +163,26 @@ footer {
   background-color: rgb(3, 1, 0);
   }
 
-  /*display template for game page */
-.thumnail{
-      width: 300px;
-      display: block;
-}
+ 
 /* setting for the container for game page*/
 .frame{
-  width:150px;
-  height:150px;
+  width:250px;
+  height:250px;
   font-family: arial;
   font-weight: bold;
   font-size: 14px;
   text-align: center;
+  display:inline-block;
+  margin-right: 100px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+
    
 }
-/* image size for the container*/
+/* image size for the container game page 10-12 and 7-9*/
 .image-size{
-  padding-left: 20px;
-  object-fit: cover;
-  width:150px;
-  height:150px;
-
+  object-fit:fill;
+  width:250px;
+  height:250px;
 }
+
