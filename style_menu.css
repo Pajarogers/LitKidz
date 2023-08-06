@@ -1,0 +1,74 @@
+body{
+margin-top: 0;
+padding: 0;
+box-sizing: border-box;
+background-image: url(images/teacher.png);
+background-size:60%;
+background-repeat: no-repeat;
+background-position: center;
+background-position-y:80px;
+
+}
+.menu-bar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  /* logo text color and font size*/
+.logo{
+    color:chartreuse;
+    font-size: 40px;
+  }
+  /* logo text color */
+  .logo span{
+    color: coral;
+  
+  }
+  /* menu  list style and display type */
+  .menu-bar ul{
+    list-style: none;
+    display: flex;
+  }
+  
+  /* spacing for in between menu list */
+  .menu-bar ul li{
+    padding: 10px 30px;
+  }
+  /* color and font size for menu list */
+  .menu-bar ul a{
+    color: rgb(194, 69, 10);
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.3s;
+  }
+  /* hover color for menu list */
+  .menu-bar ul a:hover{
+    color:rgb(48, 109, 101);
+  }
+  .form-bn a:hover{
+    color: #ed1a92;
+  }
+  
+  /* generic setting */
+  *{
+    padding: 0;
+    margin: 2px;
+    box-sizing: border-box;
+    font-family:arial;
+  }
+  .intro{
+    font-family: Arial;
+    font-size: 28px;
+    margin-left: 480px;
+    margin-top: 35px;
+  }
+  video{
+    display: block;
+    margin-left: 415px;
+    margin-top: 38px;
+    height: 35%;
+    width: 25%;
+  }

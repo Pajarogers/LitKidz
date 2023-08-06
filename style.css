@@ -60,13 +60,7 @@
   align-items: center;
   justify-content: center;
 }
-.container-image{
-  width: 100%;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 /* setting for video*/
 .background-clip, .video-bg{
   position: absolute;
@@ -185,4 +179,3 @@ footer {
   width:250px;
   height:250px;
 }
-
