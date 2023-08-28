@@ -98,25 +98,16 @@
   font-size: 16px;
   border: none;
 }
-.vido-bn {
-  background-color: rgba(000,0,0,0.0);
-  color: rgb(255, 255, 255);
-  padding: 16px;
-  font-size: 38px;
-  border: none;
-  margin-left:310px ;
- 
-}
 .vido-bn-1 {
   background-color: rgba(000,0,0,0.0);
   color: rgb(255, 255, 255);
   padding: 16px;
-  font-size: 38px;
+  font-size: 42px;
   border: none;
-  margin-left: 335px;
+  margin-left: 565px;
   position: relative;
   display: inline-block;
-  margin-top: 500px;
+  margin-top: 410px;
 }
 /* setting for drop down list*/
 .dropdown {
