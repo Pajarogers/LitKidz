@@ -187,17 +187,16 @@ footer {
 }
 .nex{
   margin-left: 550px;
-  width: 115px;
+  width: 70px;
   height: 70px;
   display: inline-block;
   color: blue;
   font-family: arial;
-  font-size: 16px;
-  padding-top: 35px;
+  font-size: 18px;
 }
 /* Handle on hover scrollbar*/
 .button_size:hover {
-  background: #13548a; 
+  background: #2820bb; 
 }
 
 
