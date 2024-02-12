@@ -1,16 +1,16 @@
 body {
-  margin-top: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-image: url(images/teacher.png);
-  background-size: 60%;
+  background-size: cover; /* Adjusted to cover the entire viewport */
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 80px;
+  background-position-y: 8vh; /* Adjusted for responsiveness */
 }
 
 .menu-bar {
-  height: 80px;
+  height: 8vh; /* Adjusted for responsiveness */
   width: 100%;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@ body {
 /* logo text color and font size */
 .logo {
   color: chartreuse;
-  font-size: 4vw; /* Responsive font size */
+  font-size: 3vw; /* Responsive font size */
 }
 
 /* logo text color */
@@ -33,20 +33,20 @@ body {
 .menu-bar ul {
   list-style: none;
   display: flex;
-  margin: 0; /* Reset margin for ul */
-  padding: 0; /* Reset padding for ul */
+  margin: 0;
+  padding: 0;
 }
 
 /* spacing for in between menu list */
 .menu-bar ul li {
-  padding: 1vw 3vw; /* Responsive padding */
+  padding: 1vh 2vw; /* Adjusted for smaller screens */
 }
 
 /* color and font size for menu list */
 .menu-bar ul a {
   color: rgb(194, 69, 10);
   text-decoration: none;
-  font-size: 2.5vw; /* Responsive font size */
+  font-size: 1.5vw; /* Adjusted for smaller screens */
   transition: all 0.3s;
 }
 
@@ -62,7 +62,7 @@ body {
 /* generic setting */
 * {
   padding: 0;
-  margin: 2px;
+  margin: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
@@ -70,14 +70,14 @@ body {
 .intro {
   font-family: Arial, sans-serif;
   font-size: 2.8vw; /* Responsive font size */
-  margin-left: 10%; /* Responsive margin */
-  margin-top: 2.5vw; /* Responsive margin */
+  margin-left: 5%; /* Adjusted for smaller screens */
+  margin-top: 2.5vh; /* Adjusted for smaller screens */
 }
 
 video {
   display: block;
-  margin-left: 10%; /* Responsive margin */
-  margin-top: 2.5vw; /* Responsive margin */
-  width: 60%; /* Responsive width */
+  margin-left: 5%; /* Adjusted for smaller screens */
+  margin-top: 2.5vh; /* Adjusted for smaller screens */
+  width: 90%; /* Responsive width */
   max-width: 400px; /* Maximum width for larger screens */
 }
