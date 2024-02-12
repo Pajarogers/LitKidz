@@ -143,13 +143,19 @@
   background-color: #8e3e83;
 }
 
+
+
+/* Footer style, margin, text color, padding, background color */
 footer {
   text-align: center;
-  margin-top: 20px; /* Adjusted for smaller screens */
-  padding-bottom: 10px; /* Adjusted for smaller screens */
-  font-size: 12px; /* Adjusted for smaller screens */
+  padding: 10px;
+  font-size: 12px;
   background-color: rgb(3, 1, 0);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
 
 .frame {
   width: 100%; /* Adjusted for smaller screens */
