@@ -1,38 +1,44 @@
-/* Default styles for all screen sizes */
+/* menu bar placement on the page */
 .menu-bar {
-  height: 8vh;
+  height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2% 5%; /* Responsive padding */
+  padding: 0 5%;
 }
 
+/* logo text color and font size */
 .logo {
   color: chartreuse;
-  font-size: 3vw;
+  font-size: 40px;
 }
 
+/* logo text color */
 .logo span {
   color: coral;
 }
 
+/* menu list style and display type */
 .menu-bar ul {
   list-style: none;
   display: flex;
 }
 
+/* spacing for in between menu list */
 .menu-bar ul li {
-  padding: 1vh 2vw; /* Adjusted for smaller screens */
+  padding: 10px 30px;
 }
 
+/* color and font size for menu list */
 .menu-bar ul a {
   color: rgb(194, 69, 10);
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 25px;
   transition: all 0.3s;
 }
 
+/* hover color for menu list */
 .menu-bar ul a:hover {
   color: rgb(48, 109, 101);
 }
@@ -41,21 +47,24 @@
   color: #ed1a92;
 }
 
+/* generic setting */
 * {
   padding: 0;
-  margin: 0;
+  margin: 2px;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: arial;
 }
 
+/* container setting for video on home page */
 .container {
   width: 100%;
-  height: auto; /* Automatically adjusts height */
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* setting for video */
 .background-clip,
 .video-bg {
   position: absolute;
@@ -63,39 +72,67 @@
   bottom: 0;
   z-index: -1;
   width: 100%;
-  height: auto; /* Automatically adjusts height */
+  height: auto;
 }
 
+/* setting for video */
+@media (min-aspect-ratio: 16/9) {
+  .background-clip,
+  .video-bg {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+/* setting for video */
+@media (max-aspect-ratio: 16/9) {
+  .background-clip,
+  .video-bg {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+/* setting for video */
 .me-container {
   width: 100%;
-  max-height: 400px; /* Adjusted for smaller screens */
+  max-width: 800px;
+  height: auto;
   object-fit: cover;
-  margin-left: 0;
-  margin-top: 2vh;
+  margin-left: 10%;
+  margin-top: 2.5vw;
 }
 
-/* Styles for various buttons and elements */
-.dropbtn,
-.vido-bn-1,
-.button_size img,
-.button,
-.nex {
-  width: 12vw;
-  height: 12vw;
-  font-size: 1.5vw;
-  padding: 2vh 2vw;
-  margin-left: 2vw;
-  margin-top: 2vh;
+/* setting for drop-down list */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
-/* Dropdown styles */
-.dropdown {
-  margin-left: 2vw;
+.vido-bn-1 {
+  background-color: rgba(0, 0, 0, 0.0);
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-size: 42px;
+  border: none;
+  margin-left: 5vw;
   position: relative;
   display: inline-block;
-  margin-top: -2vh;
+  margin-top: 410px;
 }
 
+/* setting for drop-down list */
+.dropdown {
+  margin-left: 680px;
+  position: relative;
+  display: inline-block;
+  margin-top: -300px;
+}
+
+/* setting for drop-down list */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -105,13 +142,15 @@
   z-index: 1;
 }
 
+/* setting for drop-down list */
 .dropdown-content a {
   color: black;
-  padding: 2vh 2vw;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
+/* setting for drop-down list */
 .dropdown-content {
   background-color: #5672ef;
 }
@@ -124,137 +163,32 @@
   background-color: #8e3e83;
 }
 
-/* Footer styles */
+/* Footer style, margin, text color, padding, background color */
 footer {
   text-align: center;
-  padding: 2vh;
-  font-size: 1.5vw;
+  margin-top: 220px;
+  padding-bottom: 15px;
+  font-size: 14px;
   background-color: rgb(3, 1, 0);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
+/* setting for the container for the game page */
 .frame {
-  width: 100%;
-  height: 10vh;
-  font-family: Arial, sans-serif;
+  width: 250px;
+  height: 200px;
+  font-family: arial;
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 14px;
   text-align: center;
   display: inline-block;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  margin-bottom: 2vh;
+  margin-right: 100px;
+  margin-left: 60px;
+  margin-bottom: 40px;
 }
 
+/* image size for the container game page 10-12 and 7-9 */
 .image-size {
-  object-fit: cover;
-  width: 100%;
-  height: auto; /* Automatically adjusts height */
-}
-
-.button_size img {
-  width: 4vw;
-  height: 4vw;
-  display: inline-block;
-}
-
-.button {
-  width: 5vw;
-  height: 5vw;
-  display: inline-block;
-}
-
-.nex {
-  margin-left: 2vw;
-  width: 5vw;
-  height: 5vw;
-  display: inline-block;
-  color: blue;
-  font-family: Arial, sans-serif;
-  font-size: 1.8vw;
-}
-
-.button_size:hover {
-  background: #2820bb;
-}
-
-/* Scrollbar styles */
-::-webkit-scrollbar {
-  width: 1vw;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 1vw grey;
-  border-radius: 1vw;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(16, 1, 25);
-  border-radius: 1vw;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #5b0246;
-}
-
-/* Media Queries for Responsive Design */
-@media only screen and (max-width: 768px) {
-  .menu-bar {
-    padding: 5% 5%;
-  }
-
-  .logo {
-    font-size: 5vw;
-  }
-
-  .menu-bar ul li {
-    padding: 2vh 2vw;
-  }
-
-  .menu-bar ul a {
-    font-size: 3vw;
-  }
-
-  .intro {
-    font-size: 4vw;
-    margin-left: 5%;
-    margin-top: 2.5vh;
-  }
-
-  video {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 2.5vh;
-  }
-
-  .dropbtn,
-  .vido-bn-1,
-  .button_size img,
-  .button,
-  .nex {
-    width: 25vw;
-    height: 25vw;
-    font-size: 3vw;
-    padding: 3vh 3vw;
-    margin-left: 3vw;
-    margin-top: 3vh;
-  }
-
-  .dropdown {
-    margin-left: 3vw;
-    margin-top: -3vh;
-  }
-
-  .dropdown-content a {
-    padding: 3vh 3vw;
-  }
-
-  .frame {
-    font-size: 2.5vw;
-    margin-right: 3vw;
-    margin-left: 3vw;
-    margin-bottom: 3vh;
-  }
+  object-fit: fill;
+  width: 250px;
+  height: 250px;
 }
