@@ -1,16 +1,16 @@
 /* Default styles for all screen sizes */
 .menu-bar {
-  height: 80px;
+  height: 8vh; /* Adjusted for responsiveness */
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
+  padding: 1% 5%; /* Adjusted for responsive padding */
 }
 
 .logo {
   color: chartreuse;
-  font-size: 40px;
+  font-size: 3vw; /* Responsive font size */
 }
 
 .logo span {
@@ -23,13 +23,13 @@
 }
 
 .menu-bar ul li {
-  padding: 10px 20px; /* Adjusted for smaller screens */
+  padding: 1vh 2vw; /* Adjusted for smaller screens */
 }
 
 .menu-bar ul a {
   color: rgb(194, 69, 10);
   text-decoration: none;
-  font-size: 18px; /* Adjusted for smaller screens */
+  font-size: 1.5vw; /* Adjusted for smaller screens */
   transition: all 0.3s;
 }
 
@@ -43,9 +43,9 @@
 
 * {
   padding: 0;
-  margin: 2px;
+  margin: 0;
   box-sizing: border-box;
-  font-family: arial;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -62,57 +62,43 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  .background-clip,
-  .video-bg {
-    width: 100%;
-    height: 90%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .background-clip,
-  .video-bg {
-    width: 100%;
-    height: 90%;
-  }
+  width: 100%;
+  height: 90%;
 }
 
 .me-container {
-  width: 100%; /* Adjusted for smaller screens */
-  height: 300px; /* Adjusted for smaller screens */
+  width: 100%;
+  height: 200px; /* Adjusted for smaller screens */
   object-fit: cover;
-  margin-left: 0; /* Adjusted for smaller screens */
-  margin-top: 20px; /* Adjusted for smaller screens */
+  margin-left: 0;
+  margin-top: 2vh; /* Adjusted for smaller screens */
 }
 
 .dropbtn {
   background-color: #04aa6d;
   color: white;
-  padding: 12px; /* Adjusted for smaller screens */
-  font-size: 14px; /* Adjusted for smaller screens */
+  padding: 1vh 2vw; /* Adjusted for smaller screens */
+  font-size: 1.5vw; /* Adjusted for smaller screens */
   border: none;
 }
 
 .vido-bn-1 {
   background-color: rgba(0, 0, 0, 0.0);
   color: rgb(255, 255, 255);
-  padding: 12px; /* Adjusted for smaller screens */
-  font-size: 24px; /* Adjusted for smaller screens */
+  padding: 1vh 2vw; /* Adjusted for smaller screens */
+  font-size: 2vw; /* Adjusted for smaller screens */
   border: none;
-  margin-left: 20px; /* Adjusted for smaller screens */
+  margin-left: 2vw; /* Adjusted for smaller screens */
   position: relative;
   display: inline-block;
-  margin-top: 20px; /* Adjusted for smaller screens */
+  margin-top: 2vh; /* Adjusted for smaller screens */
 }
 
 .dropdown {
-  margin-left: 20px; /* Adjusted for smaller screens */
+  margin-left: 2vw; /* Adjusted for smaller screens */
   position: relative;
   display: inline-block;
-  margin-top: -20px; /* Adjusted for smaller screens */
+  margin-top: -2vh; /* Adjusted for smaller screens */
 }
 
 .dropdown-content {
@@ -126,7 +112,7 @@
 
 .dropdown-content a {
   color: black;
-  padding: 10px 12px; /* Adjusted for smaller screens */
+  padding: 1vh 2vw; /* Adjusted for smaller screens */
   text-decoration: none;
   display: block;
 }
@@ -143,59 +129,56 @@
   background-color: #8e3e83;
 }
 
-
-
 /* Footer style, margin, text color, padding, background color */
 footer {
   text-align: center;
-  padding: 10px;
-  font-size: 12px;
+  padding: 1vh;
+  font-size: 1.2vw; /* Adjusted for smaller screens */
   background-color: rgb(3, 1, 0);
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-
 .frame {
-  width: 100%; /* Adjusted for smaller screens */
-  height: 150px; /* Adjusted for smaller screens */
-  font-family: arial;
+  width: 100%;
+  height: 10vh; /* Adjusted for smaller screens */
+  font-family: Arial, sans-serif;
   font-weight: bold;
-  font-size: 12px; /* Adjusted for smaller screens */
+  font-size: 1.2vw; /* Adjusted for smaller screens */
   text-align: center;
   display: inline-block;
-  margin-right: 10px; /* Adjusted for smaller screens */
-  margin-left: 10px; /* Adjusted for smaller screens */
-  margin-bottom: 20px; /* Adjusted for smaller screens */
+  margin-right: 1vw; /* Adjusted for smaller screens */
+  margin-left: 1vw; /* Adjusted for smaller screens */
+  margin-bottom: 2vh; /* Adjusted for smaller screens */
 }
 
 .image-size {
   object-fit: cover;
-  width: 100%; /* Adjusted for smaller screens */
-  height: 150px; /* Adjusted for smaller screens */
+  width: 100%;
+  height: 10vh; /* Adjusted for smaller screens */
 }
 
 .button_size img {
-  width: 30px; /* Adjusted for smaller screens */
-  height: 30px; /* Adjusted for smaller screens */
+  width: 2.5vw; /* Adjusted for smaller screens */
+  height: 2.5vw; /* Adjusted for smaller screens */
   display: inline-block;
 }
 
 .button {
-  width: 40px; /* Adjusted for smaller screens */
-  height: 40px; /* Adjusted for smaller screens */
+  width: 3vw; /* Adjusted for smaller screens */
+  height: 3vw; /* Adjusted for smaller screens */
   display: inline-block;
 }
 
 .nex {
-  margin-left: 20px; /* Adjusted for smaller screens */
-  width: 40px; /* Adjusted for smaller screens */
-  height: 40px; /* Adjusted for smaller screens */
+  margin-left: 2vw; /* Adjusted for smaller screens */
+  width: 3vw; /* Adjusted for smaller screens */
+  height: 3vw; /* Adjusted for smaller screens */
   display: inline-block;
   color: blue;
-  font-family: arial;
-  font-size: 14px; /* Adjusted for smaller screens */
+  font-family: Arial, sans-serif;
+  font-size: 1.4vw; /* Adjusted for smaller screens */
 }
 
 .button_size:hover {
@@ -204,17 +187,17 @@ footer {
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {
-  width: 5px; /* Adjusted for smaller screens */
+  width: 0.5vw; /* Adjusted for smaller screens */
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 5px;
+  box-shadow: inset 0 0 0.5vw grey; /* Adjusted for smaller screens */
+  border-radius: 0.5vw; /* Adjusted for smaller screens */
 }
 
 ::-webkit-scrollbar-thumb {
   background: rgb(16, 1, 25);
-  border-radius: 5px;
+  border-radius: 0.5vw; /* Adjusted for smaller screens */
 }
 
 ::-webkit-scrollbar-thumb:hover {
