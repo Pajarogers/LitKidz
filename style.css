@@ -1,226 +1,216 @@
-
-/* menu bar placement on the page */
-.menu-bar{
+/* Default styles for all screen sizes */
+.menu-bar {
   height: 80px;
   width: 100%;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   padding: 0 5%;
 }
-/* logo text color and font size*/
-.logo{
-  color:chartreuse;
+
+.logo {
+  color: chartreuse;
   font-size: 40px;
 }
-/* logo text color */
-.logo span{
-  color: coral;
 
+.logo span {
+  color: coral;
 }
-/* menu  list style and display type */
-.menu-bar ul{
+
+.menu-bar ul {
   list-style: none;
   display: flex;
 }
 
-/* spacing for in between menu list */
-.menu-bar ul li{
-  padding: 10px 30px;
+.menu-bar ul li {
+  padding: 10px 20px; /* Adjusted for smaller screens */
 }
-/* color and font size for menu list */
-.menu-bar ul a{
+
+.menu-bar ul a {
   color: rgb(194, 69, 10);
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px; /* Adjusted for smaller screens */
   transition: all 0.3s;
 }
-/* hover color for menu list */
-.menu-bar ul a:hover{
-  color:rgb(48, 109, 101);
+
+.menu-bar ul a:hover {
+  color: rgb(48, 109, 101);
 }
-.form-bn a:hover{
+
+.form-bn a:hover {
   color: #ed1a92;
 }
 
-/* generic setting */
-*{
+* {
   padding: 0;
   margin: 2px;
   box-sizing: border-box;
-  font-family:arial;
+  font-family: arial;
 }
 
-/* container setting for video on home page*/
-.container{
+.container {
   width: 100%;
   height: 50vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* setting for video*/
-.background-clip, .video-bg{
+.background-clip,
+.video-bg {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
 }
-/* setting for video*/
+
 @media (min-aspect-ratio: 16/9) {
-.background-clip, .video-bg{
-  width: 100%;
-  height: 90%;
-}
-}
-/* setting for video*/
-@media (max-aspect-ratio: 16/9) {
-  .background-clip, .video-bg{
+  .background-clip,
+  .video-bg {
     width: 100%;
     height: 90%;
   }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .background-clip,
+  .video-bg {
+    width: 100%;
+    height: 90%;
   }
-  /* setting for video*/
-.me-container{
-  width:500px;
-  height: 500px;
+}
+
+.me-container {
+  width: 100%; /* Adjusted for smaller screens */
+  height: 300px; /* Adjusted for smaller screens */
   object-fit: cover;
-  margin-left: 400px;
-  margin-top: 85px;
+  margin-left: 0; /* Adjusted for smaller screens */
+  margin-top: 20px; /* Adjusted for smaller screens */
 }
-/* setting for drop down list*/
+
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 12px; /* Adjusted for smaller screens */
+  font-size: 14px; /* Adjusted for smaller screens */
   border: none;
 }
+
 .vido-bn-1 {
-  background-color: rgba(000,0,0,0.0);
+  background-color: rgba(0, 0, 0, 0.0);
   color: rgb(255, 255, 255);
-  padding: 16px;
-  font-size: 42px;
+  padding: 12px; /* Adjusted for smaller screens */
+  font-size: 24px; /* Adjusted for smaller screens */
   border: none;
-  margin-left: 565px;
+  margin-left: 20px; /* Adjusted for smaller screens */
   position: relative;
   display: inline-block;
-  margin-top: 410px;
+  margin-top: 20px; /* Adjusted for smaller screens */
 }
-/* setting for drop down list*/
+
 .dropdown {
-  margin-left: 680px;
+  margin-left: 20px; /* Adjusted for smaller screens */
   position: relative;
   display: inline-block;
-  margin-top: -300px;
+  margin-top: -20px; /* Adjusted for smaller screens */
 }
-/* setting for drop down list*/
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #ed1a92;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-/* setting for drop down list*/
+
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 10px 12px; /* Adjusted for smaller screens */
   text-decoration: none;
   display: block;
 }
-/* setting for drop down list*/
-.dropdown-content{background-color: #5672ef;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content {
+  background-color: #5672ef;
+}
 
-.dropdown:hover .dropbtn {background-color: #8e3e83;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-/* Footer style, margin,  text color, padding, background color */
+.dropdown:hover .dropbtn {
+  background-color: #8e3e83;
+}
+
 footer {
   text-align: center;
-  margin-top: 220px;
-  padding-bottom: 15px;
-  font-size: 14px;
+  margin-top: 20px; /* Adjusted for smaller screens */
+  padding-bottom: 10px; /* Adjusted for smaller screens */
+  font-size: 12px; /* Adjusted for smaller screens */
   background-color: rgb(3, 1, 0);
-  }
+}
 
- 
-/* setting for the container for game page*/
-.frame{
-  width:250px;
-  height:200px;
+.frame {
+  width: 100%; /* Adjusted for smaller screens */
+  height: 150px; /* Adjusted for smaller screens */
   font-family: arial;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px; /* Adjusted for smaller screens */
   text-align: center;
-  display:inline-block;
-  margin-right: 100px;
-  margin-left: 60px;
-  margin-bottom: 40px;
-
-   
-}
-/* image size for the container game page 10-12 and 7-9*/
-.image-size{
-  object-fit:fill;
-  width:250px;
-  height:250px;
+  display: inline-block;
+  margin-right: 10px; /* Adjusted for smaller screens */
+  margin-left: 10px; /* Adjusted for smaller screens */
+  margin-bottom: 20px; /* Adjusted for smaller screens */
 }
 
+.image-size {
+  object-fit: cover;
+  width: 100%; /* Adjusted for smaller screens */
+  height: 150px; /* Adjusted for smaller screens */
+}
 
-
-/*button link for next page*/
-.button_size img{
-  width: 50px;
-  height: 50px;
+.button_size img {
+  width: 30px; /* Adjusted for smaller screens */
+  height: 30px; /* Adjusted for smaller screens */
   display: inline-block;
 }
-/*button link for next page*/
-.button{
-  width: 70px;
-  height: 70px;
+
+.button {
+  width: 40px; /* Adjusted for smaller screens */
+  height: 40px; /* Adjusted for smaller screens */
   display: inline-block;
 }
-.nex{
-  margin-left: 550px;
-  width: 70px;
-  height: 70px;
+
+.nex {
+  margin-left: 20px; /* Adjusted for smaller screens */
+  width: 40px; /* Adjusted for smaller screens */
+  height: 40px; /* Adjusted for smaller screens */
   display: inline-block;
   color: blue;
   font-family: arial;
-  font-size: 18px;
+  font-size: 14px; /* Adjusted for smaller screens */
 }
-/* Handle on hover scrollbar*/
+
 .button_size:hover {
-  background: #2820bb; 
+  background: #2820bb;
 }
 
-
-
-
-
-/* width  scrollbar*/
+/* Scrollbar styles */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px; /* Adjusted for smaller screens */
 }
 
-/* Track scrollbar */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-/* Handle scrollbar*/
-::-webkit-scrollbar-thumb {
-  background: rgb(16, 1, 25); 
-  border-radius: 10px;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
 }
 
-/* Handle on hover scrollbar*/
+::-webkit-scrollbar-thumb {
+  background: rgb(16, 1, 25);
+  border-radius: 5px;
+}
+
 ::-webkit-scrollbar-thumb:hover {
-  background: #5b0246; 
+  background: #5b0246;
 }
