@@ -18,18 +18,15 @@ body {
   padding: 0 5%;
 }
 
-/* logo text color and font size */
 .logo {
   color: chartreuse;
   font-size: 3vw;
 }
 
-/* logo text color */
 .logo span {
   color: coral;
 }
 
-/* menu list style and display type */
 .menu-bar ul {
   list-style: none;
   display: flex;
@@ -37,12 +34,10 @@ body {
   padding: 0;
 }
 
-/* spacing for in between menu list */
 .menu-bar ul li {
   padding: 1vh 2vw;
 }
 
-/* color and font size for menu list */
 .menu-bar ul a {
   color: rgb(194, 69, 10);
   text-decoration: none;
@@ -50,7 +45,6 @@ body {
   transition: all 0.3s;
 }
 
-/* hover color for menu list */
 .menu-bar ul a:hover {
   color: rgb(48, 109, 101);
 }
@@ -59,7 +53,6 @@ body {
   color: #ed1a92;
 }
 
-/* generic setting */
 * {
   padding: 0;
   margin: 0;
@@ -68,18 +61,19 @@ body {
 }
 
 .intro {
-  font-family: Arial, sans-serif;
-  font-size: 2.8vw;
-  margin-left: 5%;
-  margin-top: 2.5vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 video {
   display: block;
-  margin-left: 5%;
-  margin-top: 2.5vh;
   width: 90%;
   max-width: 400px;
+  margin-top: 2.5vh; /* Adjusted to move the video below the .intro */
 }
 
 /* Button and Image adjustments */
