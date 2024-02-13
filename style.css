@@ -52,11 +52,12 @@
   padding: 0;
   margin: 2px;
   box-sizing: border-box;
-  font-family: arial;
+  font-family: Arial, sans-serif;
 }
 
 /* container setting for video on home page */
-.container {
+.container,
+.container2 {
   width: 100%;
   height: 50vh;
   display: flex;
@@ -66,7 +67,9 @@
 
 /* setting for video */
 .background-clip,
-.video-bg {
+.video-bg,
+.background-clip2,
+.video-bg2 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -78,7 +81,9 @@
 /* setting for video */
 @media (min-aspect-ratio: 16/9) {
   .background-clip,
-  .video-bg {
+  .video-bg,
+  .background-clip2,
+  .video-bg2 {
     width: 100%;
     height: 90%;
   }
@@ -87,14 +92,17 @@
 /* setting for video */
 @media (max-aspect-ratio: 16/9) {
   .background-clip,
-  .video-bg {
+  .video-bg,
+  .background-clip2,
+  .video-bg2 {
     width: 100%;
     height: 90%;
   }
 }
 
-/* setting for video */
-.me-container {
+/* setting for video container */
+.me-container,
+.me-container2 {
   width: 100%;
   max-width: 800px;
   height: auto;
@@ -121,7 +129,7 @@
   position: absolute;
   transform: translate(-50%, -50%);
   margin-top: 470px;
-  margin-left: 615px;
+  margin-left: 615px; /* Adjusted for centering */
 }
 
 /* setting for drop-down list */
@@ -176,7 +184,7 @@ footer {
 .frame {
   width: 250px;
   height: 200px;
-  font-family: arial;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-align: center;
@@ -193,56 +201,7 @@ footer {
   height: 250px;
 }
 
-
-
-
-
-/* setting for video */
-.background-clip,
-.video-bg2 {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  width: 100%;
-  height: auto;
-}
-
-/* setting for video */
-@media (min-aspect-ratio: 16/9) {
-  .background-clip,
-  .video-bg2 {
-    width: 100%;
-    height: 90%;
-  }
-}
-
-/* setting for video */
-@media (max-aspect-ratio: 16/9) {
-  .background-clip,
-  .video-bg2 {
-    width: 100%;
-    height: 90%;
-  }
-}
-
-/* setting for video */
-.me-container2 {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  object-fit: cover;
-  margin-left: 10%;
-  margin-top: 2.5vw;intro
-}
-/* container setting for video on home page */
-.container2 {
-  width: 100%;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/* setting for video info container */
 .video_info {
   display: flex;
   justify-content: center;
