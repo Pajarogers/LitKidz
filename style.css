@@ -118,10 +118,10 @@
   padding: 16px;
   font-size: 42px;
   border: none;
-  margin-left: 5vw;
-  position: relative;
-  display: inline-block;
-  margin-top: 410px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 470px;
+  margin-left: 615px;
 }
 
 /* setting for drop-down list */
@@ -233,7 +233,7 @@ footer {
   height: auto;
   object-fit: cover;
   margin-left: 10%;
-  margin-top: 2.5vw;
+  margin-top: 2.5vw;intro
 }
 /* container setting for video on home page */
 .container2 {
