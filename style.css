@@ -215,3 +215,35 @@ footer {
   width: 60%;
   max-width: 350px;
 }
+.dropbtn,
+.vido-bn-1,
+.button_size img,
+.button,
+.nex {
+  width: 8vw;
+  height: 8vw;
+  font-size: 1.2vw;
+  padding: 1vh 2vw;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
+.image-size {
+  object-fit: cover;
+  width: 50%;
+  height: 8vw;
+}
+
+.button_size {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.button {
+  width: 3vw;
+  height: 3vw;
+}
+
+.nex {
+  font-size: 1.4vw;
+}

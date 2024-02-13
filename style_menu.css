@@ -77,7 +77,7 @@ body {
 
 .image-size {
   object-fit: cover;
-  width: 100%;
+  width: 50%;
   height: 8vw;
 }
 
