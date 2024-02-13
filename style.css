@@ -243,3 +243,16 @@ footer {
   align-items: center;
   justify-content: center;
 }
+.video_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -21vh;
+  margin-right: 110px;
+}
+
+.info {
+  width: 60%;
+  max-width: 350px;
+}
